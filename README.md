@@ -79,7 +79,7 @@ In particular, you need to make sure that you have created a database in your Ma
 **Note:** You must run the command in the root folder of the project, just like the other commands.
 
 ```bash
-python manage.py migrate
+python3 manage.py migrate
 ```
 ---
 ### 5. Configure the user
