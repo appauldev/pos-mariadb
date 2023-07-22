@@ -1,3 +1,6 @@
+
+
+
 # Custom
 .idea/
 
@@ -221,3 +224,8 @@ venv.bak/
 .mypy_cache/
 
 # End of https://www.gitignore.io/api/linux,macos,python,django,pycharm
+
+
+# Ignore all files and folders except dist folders under static/
+static/**/tests
+!static/**/dist
