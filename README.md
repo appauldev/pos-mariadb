@@ -8,7 +8,7 @@ A MariaDB/MySQL version of this [app](https://www.sourcecodester.com/python/1521
 # install virtualenv
 python3 -m pip install --user virtualenv
 # check if installation was successful
-python -m virtualenv --help
+python3 -m virtualenv --help
 ```
 2. If `virtualenv` was successfully installed, you may now create an environment for the project:
 ```bash
